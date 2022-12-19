@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { NavBar, Hero, NewCourses, Students, Button} from './Components';
+import { NavBar, Hero, NewCourses, Students, Button, Footer} from './Components';
 import { Routes, Route } from "react-router-dom";
 const Admin = () => {
   return (
@@ -14,6 +14,10 @@ const Admin = () => {
         
         {/* <Route path="NewCourses" element={<NewCourses/>} />*/}
       </Routes>
+      <br/>
+      <br/>
+      <br/>
+      <Footer/>
     </div>
   )
 }
