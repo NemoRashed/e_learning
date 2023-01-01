@@ -4,9 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.somaliland-gradient {
+.somaliland-gradient { 
     background: linear-gradient(101.12deg, #b42e06 27.35%, #edaf13 99.99%, #c82d1c 100%, #c8611c 100%);
- }
+ 
+}
+
+ 
+.blue-pink-orange-gradient{
+    background: linear-gradient(101.12deg, #efa2e0 27.35%, #f2ce72 99.99%, #85cdf4 100%, #7ad6f4 100%);
+ 
+}
+
+/*  background: linear-gradient(101.12deg, #b40691 27.35%, #edaf13 99.99%, #1c8cc8 100%, #c81cbc 100%);
+  */
+
 .white-bg {
     background: rgba(255, 255, 255, 0.2);
 }

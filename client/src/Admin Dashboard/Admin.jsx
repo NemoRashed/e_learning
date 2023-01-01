@@ -1,22 +1,27 @@
 import React from 'react'
 
-import { NavBar, Hero, NewCourses, Students, Button, Footer} from './Components';
+import { NavBar, Hero,  Footer
+, CreateCourse, AllStudents,DetailedStudent, EditCourse, Courses} from './Components';
 import { Routes, Route } from "react-router-dom";
-const Admin = () => {
+const Admin = () => { 
   return (
-    <div>
+    <div className='min-h-screen'>
 
-<NavBar/> 
+<NavBar className=""/> 
       <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="NewCourses" element={<NewCourses/>} />
-        <Route path="Students" element={<Students/>} />
-        
-        {/* <Route path="NewCourses" element={<NewCourses/>} />*/}
+       
+       
+   
+        <Route path="CreateCourse" element={<CreateCourse/>} />
+        <Route path="AllStudents" element={<AllStudents/>} />
+        <Route path="DetailedStudent" element={<DetailedStudent/>} />
+        <Route path="EditCourse" element={<EditCourse/>} />
+        <Route path="Courses" element={<Courses/>} />
+
+{/* EditCourse */}
       </Routes>
-      <br/>
-      <br/>
-      <br/>
+    
       <Footer/>
     </div>
   )
