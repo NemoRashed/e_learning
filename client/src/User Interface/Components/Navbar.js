@@ -65,7 +65,7 @@ function Navbar() {
 
         {/* mobile */}
         <div
-          className=" sm:block md:block lg:hidden w-full mt-0 flex justify-end p-0  "
+          className=" sm:block md:block lg:hidden w-full mt-0 flex justify-end p-0 z-30 ml-2  "
           onClick={menu}
         >
           {isOpen ? (

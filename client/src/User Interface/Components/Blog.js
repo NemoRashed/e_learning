@@ -14,7 +14,7 @@ function Blog() {
           </div>
           <div class="-my-8 divide-y-2 divide-gray-100">
             <div class="py-8 flex  justify-between sm:flex-wrap md:flex-nowrap">
-              <div class="w-80 sm:w-full h-44 mb-6  md:mr-5 flex-shrink-0 flex flex-row justify-center items-center gradient-user rounded-lg">
+              <div class="w-80 sm:w-full h-44 mb-6  md:mr-5 flex-shrink-0 flex flex-row justify-center items-center bg-gray-200 rounded-lg">
                 <img src="blog1.png" className="w-32 h-32" />
                 <div className="flex flex-col ml-5 text-white">
                   <span class="font-semibold title-font text-xl">CATEGORY</span>
@@ -54,7 +54,7 @@ function Blog() {
               </div>
             </div>
             <div class="py-8 flex justify-between sm:flex-wrap md:flex-nowrap">
-              <div class="w-80  sm:w-full h-44 mb-6 md:mr-5 flex-shrink-0 flex flex-row justify-center items-center gradient-user rounded-lg">
+              <div class="w-80  sm:w-full h-44 mb-6 md:mr-5 flex-shrink-0 flex flex-row justify-center items-center bg-gray-200 rounded-lg">
                 <img src="blog2.png" className="w-32 h-32" />
                 <div className="flex flex-col ml-5 text-white">
                   <span class="font-semibold title-font text-xl">CATEGORY</span>
@@ -91,7 +91,7 @@ function Blog() {
               </div>
             </div>
             <div class="py-8 flex justify-between sm:flex-wrap md:flex-nowrap">
-              <div class="w-80 sm:w-full h-44 mb-6 md:mr-5 flex-shrink-0 flex flex-row justify-center items-center gradient-user rounded-lg">
+              <div class="w-80 sm:w-full h-44 mb-6 md:mr-5 flex-shrink-0 flex flex-row justify-center items-center bg-gray-200 rounded-lg">
                 <img src="blog3.png" className="w-32 h-32" />
                 <div className="flex flex-col ml-5 text-white">
                   <span class="font-semibold title-font text-xl">CATEGORY</span>

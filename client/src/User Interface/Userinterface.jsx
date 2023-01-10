@@ -10,6 +10,7 @@ import {
   Whychoose,
   Blog,
   Blogdetail,
+  Coursedetail,
 } from "./Components";
 import { Routes, Route } from "react-router-dom";
 const Userinterface = () => {
@@ -23,7 +24,7 @@ const Userinterface = () => {
         <Route path="/About" element={<About />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Blogdetail" element={<Blogdetail />} />
-
+        <Route path="/Coursedetail" element={<Coursedetail />} />
         <Route path="/Whychoose" element={<Whychoose />} />
       </Routes>
 

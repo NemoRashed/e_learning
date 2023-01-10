@@ -8,3 +8,4 @@ export { default as Blog } from "./Blog";
 export { default as About } from "./About";
 export { default as Whychoose } from "./Whychoose";
 export { default as Blogdetail } from "./Blogdetail";
+export { default as Coursedetail } from "./Coursedetail";
