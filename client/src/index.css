@@ -117,7 +117,8 @@
 }
 
 .hero-gradient {
-  background: linear-gradient(to right, #f53803, #f5d020);
+  background: -webkit-linear-gradient(to right, #f08cff, #db54e7);
+  background: linear-gradient(to right, #ff8ff4, hwb(298 7% 35%));
 }
 
 .fancy-border-radius {
@@ -126,6 +127,12 @@
   /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
 
   background: #ffffff;
-  background: -webkit-linear-gradient(to right, #ff8317, #d3d66b);
-  background: linear-gradient(to right, #ff8810, #fff87b);
+  background: -webkit-linear-gradient(to right, #f08cff, #db54e7);
+  background: linear-gradient(to right, #ff8ff4, hwb(298 7% 35%));
+}
+.primaryUser{
+  color: #de2df2;
+}
+.seconderUser{
+  background-color: #fbe2ff;
 }

@@ -4,12 +4,13 @@ import ContactUs from "./ContactUs";
 import Courses from "./Courses";
 import Whychoose from "./Whychoose";
 import About from "./About";
-import Blogdetail from "./Blogdetail";
+import Topcourses from "./Topcourses";
 
 function Home() {
   return (
     <div>
       <Hero />
+      <Topcourses/>
       <Courses />
       <About />
       <Whychoose />

@@ -8,9 +8,10 @@ import {
   Footer,
   About,
   Whychoose,
-  Blog,
+  Blog, 
   Blogdetail,
   Coursedetail,
+  Topcourses,
 } from "./Components";
 import { Routes, Route } from "react-router-dom";
 const Userinterface = () => {
@@ -19,6 +20,7 @@ const Userinterface = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Topcourses" element={<Topcourses />} />
         <Route path="/Courses" element={<Courses />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/About" element={<About />} />

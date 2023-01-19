@@ -1,9 +1,15 @@
 import React from "react";
 
+import { motion } from 'framer-motion';
+import { fadeIn} from '../../utils/motion';
 function Footer() {
   return (
     <div>
-      <footer class="text-black bg-gray-100 body-font">
+      < motion.footer
+       variants={fadeIn('up', 'tween', 0.2, 1)}
+       initial="hidden"
+       whileInView="show"
+       viewport={{ once: false, amount: 0.25 }} class="text-black bg-gray-100 body-font">
         <div class="container px-20 sm:px-7 py-24 sm:py-10 mx-auto flex justify-center items-center flex-row  flex-wrap sm:flex-col  ">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mr-16 mr-24 sm:ml-5">
             <a class="flex title-font font-medium items-center md:justify-start justify-center ">
@@ -14,12 +20,12 @@ function Footer() {
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-10 h-10 text-white p-2 somaliland-gradient rounded-full"
+                class="w-10 h-10 text-white p-2 hero-gradient rounded-full"
                 viewBox="0 0 24 24"
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
-              <span class="ml-3 text-3xl text-orange-500">E-Learning</span>
+              <span class="ml-3 text-3xl primaryUser">E-Learning</span>
             </a>
             <p class="mt-2 text-sm text-gray-600">
               E-learning is the use of electronic educational technology in
@@ -30,40 +36,40 @@ function Footer() {
           </div>
           <div class="flex-grow flex  sm:justify-between flex-wrap -mb-10 md:mt-5 mt-10 sm:mr-14 ">
             <div class="lg:w-1/4 w-full px-2 mr-10 sm:mr-5 md:mr-14">
-              <h2 class="title-font font-bold text-orange-500 text-sm mb-3">
-                CATEGORIES
+              <h2 class="title-font font-bold primaryUser text-lg mb-3">
+                Category
               </h2>
               <nav class="list-none mb-10  cursor-pointer  ">
                 <li>
-                  <a class="text-gray-600 hover:text-orange-700">About</a>
+                  <a class="text-gray-600 hover:text-violet-400">About</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-orange-700">Contact</a>
+                  <a class="text-gray-600 hover:text-violet-400">Contact</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-orange-700">Blog</a>
+                  <a class="text-gray-600 hover:text-violet-400">Blog</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-orange-700">Courses</a>
+                  <a class="text-gray-600 hover:text-violet-400">Courses</a>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full ">
-              <h2 class="title-font font-bold text-orange-500 tracking-widest text-sm mb-3">
-                CATEGORIES
+              <h2 class="title-font font-bold primaryUser tracking-widest  mb-3 text-lg">
+               SocailMedia
               </h2>
               <nav class="list-none mb-10 cursor-pointer">
                 <li>
-                  <a class="text-gray-600 hover:text-orange-700">Register</a>
+                  <a class="text-gray-600 hover:text-violet-400">Facebook</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-orange-700">Privacy</a>
+                  <a class="text-gray-600 hover:text-violet-400">Whatsapp</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-orange-700">Whychoose</a>
+                  <a class="text-gray-600 hover:text-violet-400">Instagram</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-orange-700">Desclaimer</a>
+                  <a class="text-gray-600 hover:text-violet-400">Linkedin</a>
                 </li>
               </nav>
             </div>
@@ -149,7 +155,7 @@ function Footer() {
             </span>
           </div>
         </div>
-      </footer>
+      </motion.footer>
     </div>
   );
 }

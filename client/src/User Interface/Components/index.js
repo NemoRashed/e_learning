@@ -9,3 +9,5 @@ export { default as About } from "./About";
 export { default as Whychoose } from "./Whychoose";
 export { default as Blogdetail } from "./Blogdetail";
 export { default as Coursedetail } from "./Coursedetail";
+export { default as Topcourses } from "./Topcourses";
+
