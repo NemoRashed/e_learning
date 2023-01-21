@@ -18,7 +18,7 @@ function Home() {
       <Whychoose />
       <Blog />
       <ContactUs />
-      <Login/>
+      
     </div>
   );
 }

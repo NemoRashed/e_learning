@@ -24,7 +24,7 @@ function Navbar() {
       </div>
       <div className="flex   border justify-between item-center w-full lg:shadow-gray-300  px-20 py-1  md:pr-0 md:pt-0 md:pl-3  md:px-0 md:py-0  font-poppins shadow-lg ">
         <div className="flex flex-col items-center leading-3 md:flex-row ">
-          <img src="logov.png" className="w-10 h-10 sm:h-8 sm:w-8 md:mr-2  " />
+          <img src="/logov.png" className="w-10 h-10 sm:h-8 sm:w-8 md:mr-2  " />
           <p className="font-semibold text-sm ">
             Learn<span className="font-bold primaryUser ">Co.</span>
           </p>

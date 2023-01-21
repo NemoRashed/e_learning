@@ -13,6 +13,7 @@ import {
   Coursedetail,
   Topcourses,
   Login,
+  Register,
 } from "./Components";
 import { Routes, Route } from "react-router-dom";
 const Userinterface = () => {
@@ -30,6 +31,8 @@ const Userinterface = () => {
         <Route path="/Courses/Coursedetail" element={<Coursedetail />} />
         <Route path="/Whychoose" element={<Whychoose />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="/Login/Register" element={<Register />} />
+
 
       </Routes>
 
