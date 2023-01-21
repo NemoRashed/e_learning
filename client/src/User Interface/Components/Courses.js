@@ -25,9 +25,9 @@ function Courses() {
        whileInView="show"
        viewport={{ once: false, amount: 0.25 }} class="container md:px-5 px-20 py-14 md:py-10 mx-auto flex justify-between items-center  flex-wrap  sm:flex-col">
           <div class="flex flex-wrap mb-3 w-full ">
-            {cardCourses.map((course)=>(
-              <div class=" lg:p-4 md:p-0 w-1/3 md:w-full md:mb-6">
-              <Link to="Coursedetail">
+            {cardCourses.map((course, index)=>(
+              <div class=" lg:p-4 md:p-0 w-1/3 md:w-full md:mb-6" key={index}>
+              <Link to="/Courses/Coursedetail">
              
                 <div class="h-full  shadow-lg rounded-lg overflow-hidden  border-b-2 border-violet-200">
                   <div class="w-full h-44 mb-6 md:mr-5 flex-shrink-0 flex flex-row justify-center items-center hero-gradient rounded-lg">

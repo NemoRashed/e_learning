@@ -256,6 +256,9 @@ function Coursedetail() {
       </div>
       <div className=" w-1/3 py-10  h-full mt-72   absolute ml-[43rem] sm:hidden">
         <div className=" w-full h-full bg-gray-200 rounded-lg ">
+        <div className="h-10 hero-gradient text-white font-semibold text-xl flex justify-center items-center ">
+            <h1>Preview</h1>
+          </div>
           <div>
             <video className="w-full h-1/4" controls>
               <source src="movie.mp4" type="video/mp4" />
@@ -285,14 +288,14 @@ function Coursedetail() {
               </div>
             </div>
           </div>
-          <div className="flex justify-between items-center px-10 py-5 mt-6">
+          <div className="flex justify-between items-center px-10 py-5 mt-6 sm:px-5 sm:py-7 sm:mt-2">
             <div className="  ">
-              <p className="w-28 h-10 bg-violet-600 text-white text-xl rounded-full flex justify-center items-center">
+              <p className="w-28 h-10 hero-gradient text-white text-xl font-bold rounded-sm  flex justify-center items-center">
                 $ 30
               </p>
             </div>
             <div className="">
-              <p className="w-32 h-10 bg-orange-400 text-white rounded-sm  flex justify-center items-center font-bold text-xl   ">
+              <p className="w-32 h-10 hero-gradient text-white rounded-sm  flex justify-center items-center font-bold text-xl   ">
                 Enroll
               </p>
             </div>

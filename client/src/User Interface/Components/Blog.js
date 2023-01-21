@@ -42,7 +42,7 @@ function Blog() {
                 {blog.description}
                 </p>
                 <Link
-                  to="Blogdetail"
+                  to="/Blog/Blogdetail"
                   class="primaryUser inline-flex items-center mt-4"
                 >
                   Learn More

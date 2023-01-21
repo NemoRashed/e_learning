@@ -5,6 +5,8 @@ import Courses from "./Courses";
 import Whychoose from "./Whychoose";
 import About from "./About";
 import Topcourses from "./Topcourses";
+import Login from "./Login";
+
 
 function Home() {
   return (
@@ -16,6 +18,7 @@ function Home() {
       <Whychoose />
       <Blog />
       <ContactUs />
+      <Login/>
     </div>
   );
 }

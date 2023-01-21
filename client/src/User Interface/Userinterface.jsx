@@ -12,6 +12,7 @@ import {
   Blogdetail,
   Coursedetail,
   Topcourses,
+  Login,
 } from "./Components";
 import { Routes, Route } from "react-router-dom";
 const Userinterface = () => {
@@ -25,9 +26,11 @@ const Userinterface = () => {
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/About" element={<About />} />
         <Route path="/Blog" element={<Blog />} />
-        <Route path="/Blogdetail" element={<Blogdetail />} />
-        <Route path="/Coursedetail" element={<Coursedetail />} />
+        <Route path="/Blog/Blogdetail" element={<Blogdetail />} />
+        <Route path="/Courses/Coursedetail" element={<Coursedetail />} />
         <Route path="/Whychoose" element={<Whychoose />} />
+        <Route path="/Login" element={<Login />} />
+
       </Routes>
 
       <Footer />
