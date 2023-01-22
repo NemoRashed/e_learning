@@ -17,13 +17,13 @@ function Coursedetail() {
          
           <div className="flex items-center  flex-row mr-3">
             {" "}
-            <img src="star.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
-            <img src="star.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
-            <img src="star.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
-            <img src="star.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
-            <img src="star (1).png" className="w-4 h-4  sm:w-3 sm:h-3" />
+            <img src="/star.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
+            <img src="/star.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
+            <img src="/star.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
+            <img src="/star.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
+            <img src="/starEmpty.png" className="w-4 h-4  sm:w-3 sm:h-3" />
           </div>
-          <div className="mr-3 text-orange-600 underline sm:text-sm ">(2,3223 rating)</div>
+          <div className="mr-3 text-violet-600 underline sm:text-sm ">(2,3223 rating)</div>
           <div className=" text-gray-600 sm:text-sm sm:py-1"> 654 Students</div>
         </div>
         <div className=" sm:text-sm text-lg">
@@ -31,7 +31,7 @@ function Coursedetail() {
           <span className="underline text-gray-500">abdi, Developer</span>
         </div>
         <div className="flex items-center mr-3 py-5  sm:py-2">
-          <img src="globe.png" className="w-4 h-4  sm:w-3 sm:h-3 mr-1" />
+          <img src="/globe.png" className="w-5 h-5  sm:w-4 sm:h-4 mr-1" />
           English
         </div>
       </div>
@@ -43,21 +43,21 @@ function Coursedetail() {
           <div className="text-2xl font-semibold mb-5">what you will learn</div>
           <div className="flex flex-col">
             <div className="flex flex-row items-center mb-2">
-              <img src="tick.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-1" />
+              <img src="/tick.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-1" />
               <p>
               
                 Lorem ipsum helps them imagine what the lived-in
               </p>
             </div>
             <div className="flex flex-row items-center mb-2">
-              <img src="tick.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-1" />
+              <img src="/tick.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-1" />
               <p>
               
                 Lorem ipsum helps them imagine what the lived-in
               </p>
             </div>
             <div className="flex flex-row items-center mb-2">
-              <img src="tick.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-1" />
+              <img src="/tick.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-1" />
               <p>
               
                 Lorem ipsum helps them imagine what the lived-in
@@ -75,20 +75,20 @@ function Coursedetail() {
           <div className="w-full px-4 py-2 sm:px-2"> 
             <div className="flex justify-between items-center " onClick={() => setIsOpen((prev ) =>!prev)}>
               <div className="flex items-center">
-                {!IsOpen ? <img src="upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
-                :<img src="down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
+                {!IsOpen ? <img src="/upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
+                :<img src="/down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
               
                 <p className="text-lg font-semibold sm:text-sm  ">pythone course </p>
               </div>
               <div className="flex items-center text-sm  ">
-                10 lectures  <img src="dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
+                10 lectures  <img src="/dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
               </div>
             </div></div>
             {IsOpen && (
 <>
               <div className="w-full h-full bg-white shadow  flex justify-between px-4 py-4 text-sm">
             <div className="flex items-center">
-            <img src="vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
+            <img src="/vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
             <p>
               introduction
             </p>
@@ -106,20 +106,20 @@ function Coursedetail() {
           <div className="w-full px-4 py-2 sm:px-2"> 
             <div className="flex justify-between items-center " onClick={() => setIsOpen((prev ) =>!prev)}>
               <div className="flex items-center">
-                {!IsOpen ? <img src="upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
-                :<img src="down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
+                {!IsOpen ? <img src="/upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
+                :<img src="/down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
               
                 <p className="text-lg font-semibold sm:text-sm  ">pythone course </p>
               </div>
               <div className="flex items-center text-sm  ">
-                10 lectures  <img src="dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
+                10 lectures  <img src="/dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
               </div>
             </div></div>
             {IsOpen && (
 <>
               <div className="w-full h-full bg-white shadow  flex justify-between px-4 py-4 text-sm">
             <div className="flex items-center">
-            <img src="vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
+            <img src="/vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
             <p>
               introduction
             </p>
@@ -137,20 +137,20 @@ function Coursedetail() {
           <div className="w-full px-4 py-2 sm:px-2"> 
             <div className="flex justify-between items-center " onClick={() => setIsOpen((prev ) =>!prev)}>
               <div className="flex items-center">
-                {!IsOpen ? <img src="upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
-                :<img src="down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
+                {!IsOpen ? <img src="/upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
+                :<img src="/down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
               
                 <p className="text-lg font-semibold sm:text-sm  ">pythone course </p>
               </div>
               <div className="flex items-center text-sm  ">
-                10 lectures  <img src="dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
+                10 lectures  <img src="/dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
               </div>
             </div></div>
             {IsOpen && (
 <>
               <div className="w-full h-full bg-white shadow  flex justify-between px-4 py-4 text-sm">
             <div className="flex items-center">
-            <img src="vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
+            <img src="/vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
             <p>
               introduction
             </p>
@@ -168,20 +168,20 @@ function Coursedetail() {
           <div className="w-full px-4 py-2 sm:px-2"> 
             <div className="flex justify-between items-center " onClick={() => setIsOpen((prev ) =>!prev)}>
               <div className="flex items-center">
-                {!IsOpen ? <img src="upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
-                :<img src="down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
+                {!IsOpen ? <img src="/upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
+                :<img src="/down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
               
                 <p className="text-lg font-semibold sm:text-sm  ">pythone course </p>
               </div>
               <div className="flex items-center text-sm  ">
-                10 lectures  <img src="dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
+                10 lectures  <img src="/dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
               </div>
             </div></div>
             {IsOpen && (
 <>
               <div className="w-full h-full bg-white shadow  flex justify-between px-4 py-4 text-sm">
             <div className="flex items-center">
-            <img src="vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
+            <img src="/vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
             <p>
               introduction
             </p>
@@ -199,20 +199,20 @@ function Coursedetail() {
           <div className="w-full px-4 py-2 sm:px-2"> 
             <div className="flex justify-between items-center " onClick={() => setIsOpen((prev ) =>!prev)}>
               <div className="flex items-center">
-                {!IsOpen ? <img src="upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
-                :<img src="down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
+                {!IsOpen ? <img src="/upload.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-3" />
+                :<img src="/down-arrow.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> }
               
                 <p className="text-lg font-semibold sm:text-sm  ">pythone course </p>
               </div>
               <div className="flex items-center text-sm  ">
-                10 lectures  <img src="dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
+                10 lectures  <img src="/dot.png" className="w-2 h-2  sm:w-2 sm:h-2 m-1 mt-3" />40min
               </div>
             </div></div>
             {IsOpen && (
 <>
               <div className="w-full h-full bg-white shadow  flex justify-between px-4 py-4 text-sm">
             <div className="flex items-center">
-            <img src="vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
+            <img src="/vedio.png" className="w-4 h-4  sm:w-4 sm:h-4 mr-3" /> 
             <p>
               introduction
             </p>
@@ -232,11 +232,11 @@ function Coursedetail() {
         <div className="font-bold text-2xl pb-6 sm:text-xl">Requirements</div>
         <div className="text-sm">
           <div className="flex flex-row items-center  mb-2">
-            <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+            <img src="/dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
             <p> Lorem ipsum helps them imagine what the lived-in</p>
           </div>
           <div className="flex flex-row items-center mb-2">
-            <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+            <img src="/dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
             <p> Lorem ipsum helps them imagine what the lived-in</p>
           </div>
         </div>
@@ -344,11 +344,11 @@ function Coursedetail() {
                 $ 30
               </p>
             </div>
-            <div className="">
+            <Link to="/Enroll">  <div className="">
               <p className="w-32 h-10 hero-gradient text-white rounded-sm  flex justify-center items-center font-bold text-xl   ">
                 Enroll
               </p>
-            </div>
+            </div></Link>
           </div>
         </div>
       </div>
