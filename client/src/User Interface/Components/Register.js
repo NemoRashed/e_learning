@@ -33,7 +33,7 @@ function Register() {
             <h1 className="text-2xl sm:text-2xl  font-extrabold  text-black  ">
               <span className="primaryUser font-normal">| </span> Registration Account
             </h1>
-            {/* <div className="border-b-2 border-orange-600 w-52 sm:w-32 pt-1 " /> */}
+           
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.5, 1)}

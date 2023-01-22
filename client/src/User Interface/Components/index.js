@@ -12,6 +12,15 @@ export { default as Coursedetail } from "./Coursedetail";
 export { default as Topcourses } from "./Topcourses";
 export { default as Login } from "./Login";
 export { default as Register } from "./Register";
+export { default as Testimonail } from "./Testimonail";
+export { default as Enroll } from "./Payments/Enroll";
+export { default as Zaad } from "./Payments/Zaad";
+export { default as Edahab } from "./Payments/Edahab";
+export { default as Mastercard } from "./Payments/Mastercard";
+
+
+
+
 
 
 

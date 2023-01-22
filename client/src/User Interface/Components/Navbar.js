@@ -93,10 +93,27 @@ function Navbar() {
 
           <div>
             <ul className="flex justify-center px-10 items-center w-full flex-col ">
-              <li className=" w-full mb-6 mt-14 border-black flex items-center text-md font-semibold ">
-                <div>
-                  <img src="home.png" className="w-5 h-5 mr-2 " />
+            {Navlink.map((nav, index) => (
+                <li
+                key={index}
+                  className={`w-full  mt-7  flex items-center text-md font-semibold  ${
+                    activePage === nav.title
+                      ? "border-b-2 border-violet-600"
+                      : " "
+                  }`}
+                  onClick={() => setActivePage(nav.title)}
+                >
+                   <div>
+                  <img src="/home.png" className="w-5 h-5 mr-2 " />
                 </div>
+                  {<Link to={`${nav.id} `}> {nav.title}</Link>}
+                </li>
+              ))}
+             
+             
+             
+              {/* <li className="  ">
+               
                 Home
               </li>
               <li className="  w-full mb-6 border-black flex items-center text-md font-semibold">
@@ -122,7 +139,7 @@ function Navbar() {
                   <img src="phone.png" className="w-5 h-5 mr-2 " />
                 </div>
                 Contact Us
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="flex justify-between items-center flex-col ">

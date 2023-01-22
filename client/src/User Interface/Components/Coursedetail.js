@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link } from 'react-router-dom'
 
 function Coursedetail() {
   const [IsOpen, setIsOpen] = useState(false)
@@ -294,11 +295,11 @@ function Coursedetail() {
                 $ 30
               </p>
             </div>
-            <div className="">
-              <p className="w-32 h-10 hero-gradient text-white rounded-sm  flex justify-center items-center font-bold text-xl   ">
+            <Link to="/Enroll"> <div className="">
+            <p className="w-32 h-10 hero-gradient text-white rounded-sm  flex justify-center items-center font-bold text-xl   ">
                 Enroll
-              </p>
-            </div>
+              </p> 
+            </div></Link>
           </div>
         </div>
       </div>

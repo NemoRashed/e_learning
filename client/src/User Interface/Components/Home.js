@@ -5,7 +5,7 @@ import Courses from "./Courses";
 import Whychoose from "./Whychoose";
 import About from "./About";
 import Topcourses from "./Topcourses";
-import Login from "./Login";
+import Testimonail from "./Testimonail";
 
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
       <Whychoose />
       <Blog />
       <ContactUs />
-      
+      <Testimonail/>
     </div>
   );
 }
