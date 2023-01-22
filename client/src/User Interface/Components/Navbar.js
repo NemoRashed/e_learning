@@ -34,15 +34,15 @@ function Navbar() {
           <div className="mr-[20rem]">
             <ul
               className={
-                " flex justify-between items-center text-md font-semibold text-black "
+                " flex justify-between items-center text-md font-normal text-gray-700 "
               }
             >
               {Navlink.map((nav, index) => (
                 <li
-                key={index}
+                  key={index}
                   className={`mr-2  px-2 py-1 rounded-[7px]  ${
                     activePage === nav.title
-                      ? "border-b-2 border-violet-600"
+                      ? "border-b-2 border-violet-400"
                       : " "
                   }`}
                   onClick={() => setActivePage(nav.title)}
@@ -53,18 +53,14 @@ function Navbar() {
             </ul>
           </div>
           <div className="flex items-center ">
-            {/* <div onClick={darkScreen}>
-              {Dark ? (
-                <img src="sun.png" className="w-7 h-7 mr-5" />
-              ) : (
-                <img src="moon.png" className="w-7 h-7 mr-5" />
-              )}
-            </div> */}
             <div className="flex justify-between items-center ">
-             <Link to="/Login"> <button className=" flex justify-center items-center hero-gradient text-white font-semibold px-5 py-2 rounded-[10px]">
-                <img src="user.png" className="w-5 h-5 mr-2" />
-                login
-              </button></Link>
+              <Link to="/Login">
+                {" "}
+                <button className=" flex justify-center items-center hero-gradient text-white font-semibold px-5 py-2 rounded-[10px]">
+                  <img src="user.png" className="w-5 h-5 mr-2" />
+                  login
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -75,11 +71,11 @@ function Navbar() {
         >
           {isOpen ? (
             <div className="flex justify-end">
-              <img src="close.png" className="w-10 h-10 mr-4 mb-5 " />
+              <img src="/close.png" className="w-10 h-10 mr-4 mb-5 " />
             </div>
           ) : (
             <div className="flex justify-end mt-2 mr-5">
-              <img src="menu.png" className="w-6 h-6 " />
+              <img src="/menu.png" className="w-6 h-6 " />
             </div>
           )}
         </div>{" "}
@@ -93,68 +89,49 @@ function Navbar() {
 
           <div>
             <ul className="flex justify-center px-10 items-center w-full flex-col ">
-            {Navlink.map((nav, index) => (
+              {Navlink.map((nav, index) => (
                 <li
-                key={index}
-                  className={`w-full  mt-7  flex items-center text-md font-semibold  ${
-                    activePage === nav.title
-                      ? "border-b-2 border-violet-600"
-                      : " "
+                  key={index}
+                  className={`w-full  mt-7  flex items-center text-md font-semibold  
                   }`}
-                  onClick={() => setActivePage(nav.title)}
+                  onClick={() => {
+                    setActivePage(nav.title), setIsOpen((prev) => !prev);
+                  }}
                 >
-                   <div>
-                  <img src="/home.png" className="w-5 h-5 mr-2 " />
-                </div>
+                  <div>
+                    <img src={nav.img} className="w-5 h-5 mr-2 " />
+                  </div>
                   {<Link to={`${nav.id} `}> {nav.title}</Link>}
                 </li>
               ))}
-             
-             
-             
-              {/* <li className="  ">
-               
-                Home
-              </li>
-              <li className="  w-full mb-6 border-black flex items-center text-md font-semibold">
-                <div>
-                  <img src="blogging.png" className="w-5 h-5 mr-2 " />
-                </div>
-                Blog
-              </li>
-              <li className="   w-full mb-6 border-black flex items-center text-md font-semibold">
-                <div>
-                  <img src="about1.png" className="w-5 h-5 mr-2 " />
-                </div>
-                About
-              </li>
-              <li className="   w-full mb-6 border-black flex items-center text-md font-semibold">
-                <div>
-                  <img src="books.png" className="w-5 h-5 mr-2 " />
-                </div>
-                Courses
-              </li>
-              <li className="   w-full mb-6 border-black  flex items-center text-md font-semibold">
-                <div>
-                  <img src="phone.png" className="w-5 h-5 mr-2 " />
-                </div>
-                Contact Us
-              </li> */}
             </ul>
           </div>
           <div className="flex justify-between items-center flex-col ">
-            {/* <div>
-                  <img src="sun.png" className="w-7 h-7 " />
-                </div> */}
             <div className=" flex justify-between items-center  ">
-              <button className="flex justify-center  items-center hero-gradient mr-5 text-white font-semibold px-10 py-2 rounded-[10px]  mt-14">
-                <img src="user.png" className="w-3 h-3 mr-2" />
-                login
-              </button>
-              <button className=" flex justify-center items-center hero-gradient text-white font-semibold px-10 py-2 rounded-[10px]  mt-14">
-                <img src="user.png" className="w-3 h-3 mr-2" />
-                Register
-              </button>
+              <Link
+                to="/Login"
+                onClick={() => {
+                  setIsOpen((prev) => !prev);
+                }}
+              >
+                {" "}
+                <button className="flex justify-center  items-center hero-gradient mr-5 text-white font-semibold px-10 py-2 rounded-[10px]  mt-14">
+                  <img src="/user.png" className="w-3 h-3 mr-2" />
+                  login
+                </button>
+              </Link>
+              <Link
+                to="/Login/Register"
+                onClick={() => {
+                  setIsOpen((prev) => !prev);
+                }}
+              >
+                {" "}
+                <button className=" flex justify-center items-center hero-gradient text-white font-semibold px-10 py-2 rounded-[10px]  mt-14">
+                  <img src="/user.png" className="w-3 h-3 mr-2" />
+                  Register
+                </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ function Login() {
     console.log(email, password);
   };
   return (
-    <div className="px-20 py-10 md:px-10 md:py-5 rounded-lg">
+    <div className="px-20 py-10 md:px-5 md:py-5 rounded-lg">
       <div className="px-10 py-10  md:px-5 md:py-5 md:flex-wrap  shadow-lg flex flex-row items-center justify-around">
       <motion.div
             variants={fadeIn("right", "tween", 0.5, 1)}

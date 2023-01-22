@@ -4,7 +4,7 @@ import { fadeIn} from '../../utils/motion';
 
 function Topcourses() {
   return (
-    <div className="bg-gray-50 px-20  md:px-5 py-20 mt-14 w-full h-72 md:h-screen flex justify-center items-center flex-col">
+    <div className="bg-gray-50 px-20  md:px-5  mt-5 w-full h-72 md:h-screen flex justify-center items-center flex-col">
      <motion.div
        variants={fadeIn('right', 'tween', 0.5, 1)}
       initial="hidden"

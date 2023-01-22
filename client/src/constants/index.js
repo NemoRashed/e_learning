@@ -2,7 +2,7 @@ export const cardCourses =[
     {
         id:"card1",
         img:"blog1.png",
-        title:"web development",
+        title:"Engineer",
         date:"12 Jun 2019",
         description:"Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat",
         rate:"star.png",
@@ -24,7 +24,7 @@ export const cardCourses =[
     {
         id:"card3",
         img:"blog3.png",
-        title:"web development",
+        title:"Marketing",
         date:"12 Jun 2019",
         description:"Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat",
         rate:"star.png",
@@ -66,26 +66,31 @@ export const Navlink=[
     {
         id:"/",
         title:"Home",
+        img:"/home.png"
         
     },
     {
         id:"/Courses",
         title:"Courses",
+        img:"/book.png"
         
     },
     {
         id:"/About",
         title:"About",
+        img:"/about1.png"
         
     },
     {
         id:"/Blog",
         title:"Blog",
+        img:"/course.png"
         
     },
     {
         id:"/ContactUs",
         title:"ContactUs",
+        img:"/phone-call.png"
         
     },
 ]

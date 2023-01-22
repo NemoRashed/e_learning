@@ -12,7 +12,7 @@ function Register() {
     console.log(email, password);
   };
   return (
-    <div className="px-20 py-10 md:px-10 md:py-5 rounded-lg">
+    <div className="px-20 py-10 md:px-5 md:py-5 rounded-lg">
       <div className="px-7 py-10  md:px-5 md:py-5 md:flex-wrap  shadow-lg flex flex-row items-center justify-around">
       <motion.div
             variants={fadeIn("right", "tween", 0.5, 1)}
@@ -30,7 +30,7 @@ function Register() {
             viewport={{ once: false, amount: 0.25 }}
             className="mb-10 flex justify-center items-center flex-col"
           >
-            <h1 className="text-2xl sm:text-2xl  font-extrabold  text-black  ">
+            <h1 className="text-2xl md:text-xl  font-extrabold  text-black  ">
               <span className="primaryUser font-normal">| </span> Registration Account
             </h1>
            
@@ -39,7 +39,7 @@ function Register() {
             variants={fadeIn("up", "tween", 0.5, 1)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: false, amount: 0.25 }}
+            viewport={{ once: false, amount: 0.10 }}
           >
             <form onSubmit={handleSubmit}>
             <div className="mb-4">
@@ -106,7 +106,7 @@ function Register() {
                 <p className="mx-5">or</p>
                 <button className="shadow w-full  rounded-md py-2 px-4 hover:bg-gray-200 flex items-center justify-center">
                <img src="/google.png" className="w-7 h-7 mr-3"/>
-                Google Account
+                 Sign up with Google 
                 </button>
               </div>
             </form>

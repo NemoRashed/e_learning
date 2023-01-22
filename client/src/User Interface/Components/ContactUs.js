@@ -7,12 +7,12 @@ function ContactUs() {
   return (
     <div>
       <section class="text-gray-600 body-font ">
-        <div class=" w-full px-20 py-24 sm:px-5  mx-auto flex sm:flex-wrap flex-wrap justify-between">
+        <div class=" w-full px-20 py-24 md:px-5   md:py-8 mx-auto flex sm:flex-wrap flex-wrap justify-between">
            < motion.div
        variants={fadeIn('up', 'tween', 0.5, 1)}
        initial="hidden"
        whileInView="show"
-       viewport={{ once: false, amount: 0.25 }}  class="lg:w-1/2 sm:w-full bg-gray-800 rounded-lg overflow-hidden  p-10 flex items-end justify-start relative">
+       viewport={{ once: false, amount: 0.10 }}  class="lg:w-1/2 sm:w-full bg-gray-800 rounded-lg overflow-hidden  p-10 flex items-end justify-start relative">
             <img className="absolute inset-0 w-full h-screen" src="map.jpg" />
 
             <div class="hero-gradient bg-opacity-10  w-full relative flex justify-between items-center sm:flex-wrap py-6 rounded shadow-md">
@@ -42,7 +42,7 @@ function ContactUs() {
        variants={fadeIn('right', 'tween', 0.5, 1)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}className="mb-10 flex justify-center items-center flex-col">
+      viewport={{ once: false, amount: 0.10 }}className="mb-10 flex justify-center items-center flex-col">
               <h1 className="text-4xl sm:text-2xl font-extrabold  text-black  ">
               <span className="text-orange-500 font-normal">| </span>    Contact Us
               </h1>

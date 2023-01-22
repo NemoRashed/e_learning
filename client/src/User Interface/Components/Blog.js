@@ -8,7 +8,7 @@ function Blog() {
   return (
     <div>
       <section class="text-gray-600 body-font overflow-hidden">
-        <div class="container px-20 py-10 md:px-5 md:py-20 mx-auto">
+        <div class="container px-20 py-10 md:px-5 md:py-5 mx-auto">
         <motion.div
        variants={fadeIn('right', 'tween', 0.5, 1)}
       initial="hidden"
@@ -23,7 +23,7 @@ function Blog() {
        variants={fadeIn('up', 'tween', 0.5, 1)}
        initial="hidden"
        whileInView="show"
-       viewport={{ once: false, amount: 0.25 }} class="-my-8 divide-y-2 divide-gray-100">
+       viewport={{ once: false, amount: 0.10 }} class="-my-8 divide-y-2 divide-gray-100">
         {cardBlog.map((blog)=>(
           <div class="py-8 flex  justify-between md:flex-wrap ">
               <div class="w-80 md:w-full h-44 mb-6  md:mr-5 flex-shrink-0 flex flex-row justify-center items-center hero-gradient rounded-lg">
