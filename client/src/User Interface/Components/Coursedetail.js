@@ -256,7 +256,7 @@ function Coursedetail() {
       </div>
       </div>
       <div className=" w-1/3 py-10  h-full mt-72   absolute ml-[43rem] sm:hidden">
-        <div className=" w-full h-full bg-gray-200 rounded-lg ">
+        <div className=" w-full h-full bg-gray-100 rounded-lg ">
         <div className="h-10 hero-gradient text-white font-semibold text-xl flex justify-center items-center ">
             <h1>Preview</h1>
           </div>
@@ -265,26 +265,26 @@ function Coursedetail() {
               <source src="movie.mp4" type="video/mp4" />
             </video>
           </div>
-          <div className="w-full  px-10 py-5">
+          <div className="w-full   px-10 py-1">
             <div className="text-black text-xl  mb-3 font-semibold">
               Course Including
             </div>
 
             <div className="px-5">
-              <div className="flex items-center flex-row text-sm text-gray-600">
-                <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+              <div className="flex items-center flex-row text-md text-gray-600 mb-3">
+                <img src="/book.png" className="w-5 h-5  sm:w-5 sm:h-5 mr-1" />
                 <p>lorem course inslude</p>
               </div>
-              <div className="flex items-center flex-row text-sm text-gray-600">
-                <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+              <div className="flex items-center flex-row text-md text-gray-600 mb-3">
+                <img src="/vedio.png" className="w-5 h-5  sm:w-5 sm:h-5 mr-1" />
                 <p>lorem course inslude</p>
               </div>
-              <div className="flex items-center flex-row text-sm text-gray-600">
-                <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+              <div className="flex items-center flex-row text-md text-gray-600 mb-3">
+                <img src="/course.png" className="w-5 h-5  sm:w-5 sm:h-5 mr-1" />
                 <p>lorem course inslude</p>
               </div>
-              <div className="flex items-center flex-row text-sm text-gray-600">
-                <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+              <div className="flex items-center flex-row text-md text-gray-600">
+                <img src="/about1.png" className="w-5 h-5  sm:w-5 sm:h-5 mr-1" />
                 <p>lorem course inslude</p>
               </div>
             </div>
@@ -319,21 +319,21 @@ function Coursedetail() {
               Course Including
             </div>
 
-            <div className="px-5 sm:px-3">
-              <div className="flex items-center flex-row text-sm text-gray-600">
-                <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+            <div className="px-5">
+              <div className="flex items-center flex-row text-md text-gray-600 mb-3">
+                <img src="/book.png" className="w-5 h-5  sm:w-5 sm:h-5 mr-1" />
                 <p>lorem course inslude</p>
               </div>
-              <div className="flex items-center flex-row text-sm text-gray-600">
-                <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+              <div className="flex items-center flex-row text-md text-gray-600 mb-3">
+                <img src="/vedio.png" className="w-5 h-5  sm:w-5 sm:h-5 mr-1" />
                 <p>lorem course inslude</p>
               </div>
-              <div className="flex items-center flex-row text-sm text-gray-600">
-                <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+              <div className="flex items-center flex-row text-md text-gray-600 mb-3">
+                <img src="/course.png" className="w-5 h-5  sm:w-5 sm:h-5 mr-1" />
                 <p>lorem course inslude</p>
               </div>
-              <div className="flex items-center flex-row text-sm text-gray-600">
-                <img src="dot.png" className="w-3 h-3  sm:w-3 sm:h-3 mr-1" />
+              <div className="flex items-center flex-row text-md text-gray-600">
+                <img src="/about1.png" className="w-5 h-5  sm:w-5 sm:h-5 mr-1" />
                 <p>lorem course inslude</p>
               </div>
             </div>
