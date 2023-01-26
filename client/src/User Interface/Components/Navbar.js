@@ -5,16 +5,6 @@ import { Navlink } from "../../constants";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [activePage, setActivePage] = useState("home");
-  const [Dark, setDark] = useState(false);
-
-  function menu() {
-    setIsOpen(!isOpen);
-  }
-
-  function activer() {
-    let classm = "text-red-700";
-    setActive(classm);
-  }
 
   return (
     <>

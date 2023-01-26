@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 function Course() {
   return (
-    <div className="flex flex-col pl-72 pr-20  ">
+    <div className="flex flex-col pl-72 pr-16  ">
       <User name={"All Courses"} />
       <div className="w-full h-full   px-10 py-10  ">
         <div className="flex flex-row justify-between flex-wrap ">
           <Link to="/DetailCourse">
-            <div className="bg-white shadow w-64 h-72 rounded-lg mr-4  mb-5 ">
+            <div className="bg-white shadow w-64 h-72 rounded-lg mr-2 mb-5 ">
               <div class="w-full h-32   mb-6 md:mr-5 flex-shrink-0 flex flex-row justify-center items-center student-gradient rounded-lg">
                 <img src="/blog1.png" className="w-28 h-28" />
               </div>
@@ -33,7 +33,7 @@ function Course() {
             </div>
           </Link>
           <Link to="/DetailCourse">
-            <div className="bg-white shadow w-64 h-72 rounded-lg mr-4 mb-5 ">
+            <div className="bg-white shadow w-64 h-72 rounded-lg mr-2 mb-5 ">
               <div class="w-full h-32   mb-6 md:mr-5 flex-shrink-0 flex flex-row justify-center items-center student-gradient rounded-lg">
                 <img src="/blog3.png" className="w-28 h-28" />
               </div>
