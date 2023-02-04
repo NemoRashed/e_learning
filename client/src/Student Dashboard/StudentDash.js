@@ -11,7 +11,7 @@ import Contact from "./Components/Contact us/Contact";
 
 function StudentDash() {
   return (
-    <div className="flex   w-full">
+    <div className="flex md:flex-col  w-full">
       <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -4,11 +4,11 @@ import { cardBlog } from "../../../constants";
 
 function Blog() {
   return (
-    <div className="flex flex-col pl-72 pr-20  ">
+    <div className="flex flex-col pl-72 pr-20  md:pl-0 md:pr-0 ">
       <User name={"Latest Update"} />
       <div class="-my-8 divide-y-2 divide-gray-100">
         {cardBlog.map((blog) => (
-          <div class="py-10 flex  justify-between md:flex-wrap my-10 px-10 ">
+          <div class="py-10 flex  justify-between md:flex-wrap my-10 px-10 md:my-5 md:px-5 ">
             <div class="w-80 md:w-full h-44 mb-6  md:mr-5 flex-shrink-0 flex flex-row justify-center items-center student-gradient rounded-lg">
               <img src={blog.img} className="w-32 h-32" />
               <div className="flex flex-col ml-5 text-white">
