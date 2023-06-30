@@ -5,6 +5,10 @@ import images from '../../../assets';
 import { makeId } from '../../../utils/makeId';
 import SearchBar from '../SearchBar';
 import TopCourses from '../Top Courses/TopCourses';
+import Graphs from '../Graphs/Graphs';
+import Stats from '../Stats/Stats';
+import Blogs from '../Blogs/Blogs';
+import Pricing from '../Pricing/Pricing';
 
 const Hero = () => {
   const [hideButtons, sethideButtons] = useState(false);
@@ -63,14 +67,72 @@ return () => {
       xs:p-4 xs:h-44 rounded-3xl'
     
       />
-<div >
+
+      <div className='mt-10'>
+      <Pricing/>
+      </div>
+<div className='mt-10'>
+<Graphs/>
+</div>
+<div className='mt-10'>
+<Stats/>
+</div>
+<div className='mt-10'>
+<Blogs/>
+</div>
+
+<div className='mt-10'>
+
 <h1 className='font-poppins dark:text-white
+  text-3xl minlg:text-4xl mb-5
+font-semibold ml-4 xs:ml-0'><span className='font-extrabold rounded-md px-2'>
+ Top Courses </span></h1>
+
+
+<TopCourses/>
+
+</div>
+
+
+<div className='mt-10'>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+  )
+}
+
+export default Hero
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <h1 className='font-poppins dark:text-white
   text-2xl minlg:text-4xl 
 font-semibold ml-4 xs:ml-0'>Your <span className='font-extrabold 
 blue-pink-orange-gradient rounded-md px-2'>
- Top Courses </span></h1>
-
-<div className='relative flex-1 max-w-full flex 
+ Top Courses </span></h1> */}
+{/* 
+{/* <div className='relative flex-1 max-w-full flex 
 mt-3'
 ref={parentRef}> 
 <div  
@@ -118,24 +180,4 @@ minlg:h-12 top-45 cursor-pointer right-0 rounded-md'>
 </>
 )}
 </div>
-</div>
-</div>
-
-
-<div className='mt-10'>
-
-</div>
-
-
-
-
-
-
-
-
-</div>
-</div>
-  )
-}
-
-export default Hero
+</div> */} 

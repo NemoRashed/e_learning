@@ -10,10 +10,10 @@ const MenuItems = ({ isMobile, active, setActive }) => {
     switch (i) {
       case 0:
         return "/";
-      case 1:
-        return "/CreateCourse";
+      case 1: 
+        return "/Blogs";
       case 2:
-        return "/Courses";
+        return "/AllCourses";
       case 3: 
       return '/AllStudents';
 
@@ -27,13 +27,16 @@ const MenuItems = ({ isMobile, active, setActive }) => {
         isMobile && "flex-col h-full"
       }`}
     >
-      {["Explore", "CreateCourse", 'Courses', "Students"].map((item, i) => (
+      {["Explore", "Blogs", 'AllCourses', "Students"].map((item, i) => (
         <li
           key={i}
           onClick={() => {
             setActive(item);
           }}
-          className={`flex flex-row items-center font-Poppins font-semibold text-black dark:hover:text-white hover:text-gray-800 mx-3 dark:text-white
+          className={`flex flex-row items-center 
+          font-Poppins font-semibold text-black
+           dark:hover:text-white hover:text-gray-800
+            mx-3 dark:text-white
                 ${
                   active === item
                     ? "dark:text-white text-black bg-dimOrange px-4 p-1 rounded-md "
@@ -81,11 +84,12 @@ const NavBar = () => {
         <div
           className="flex flex-1 flex-row 
 justify-start"
-        >
+        > 
           {/* Link */}
 
           <div
-            className="flex flexCenter md:hidden cursor-pointer "
+            className="flex flexCenter md:hidden 
+            cursor-pointer "
             onClick={() => {}}
           >
             <div

@@ -21,7 +21,7 @@ const FooterLinks = ({heading, items})=> (
 
 
 const Footer = () => {
-  const [emailMe, setEmailMe] = useState(true);
+  const [emailMe, setEmailMe] = useState(false);
   return (
 
   <footer className=' bg-white flexCenter flex-col border-t dark:border-gray-50 
@@ -105,19 +105,23 @@ handleClick={() => setEmailMe(false)}
 
 <div className='flex-1 flexBetweenStart flex-wrap ml-10 md:ml-0
  md:mt-8 '>
+   
   <FooterLinks heading= 'E-Learning Platform'
   items= {['Explore', 'How it Works', 'Contact Us']}/>
    <FooterLinks heading= 'Support'
   items= {['Help Center', 'Terms od Services', 'Legal', 'Privacy Policy']}/>
+
+
  </div>
 
 </div>
 
 
 <div className='flexCenter w-full mt-5 border-t dark:border-gray-400 border-primary 
-
+ 
 sm:px-4 px-16'>
-  <div className='flexBetween flex-row w-full minmd:w-4/5 sm:flex-col mt-7'>
+  <div className='flexBetween flex-row w-full
+   minmd:w-4/5 sm:flex-col mt-7'>
 <p className='font-poppins dark:text-white text-gray-900 
  text-base'>E-Learning Platform, <span className='font-semibold underline'>SiraadDev</span>. All Rights Reserved</p>
  <div className='flex flex-row sm:mt-4'>
@@ -132,7 +136,7 @@ sm:px-4 px-16'>
      height={24}
      alt="social" />
     </div>
-  ))}
+  ))} 
 
   </div>
 

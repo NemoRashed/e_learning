@@ -3,7 +3,7 @@ import {useDropzone} from 'react-dropzone';
 import images from '../../../assets';
 import Input from './Input';
 import Button from '../Button';
-
+ 
 
 const CreateCourse = () => {
 
@@ -102,15 +102,35 @@ placeholder='Video Name'
 handleClick= {(e)=> setFormInput({...FormInput,
 name: e.target.value})}
 />
-
+<Input
+type="number" 
+title= 'modules'
+placeholder='Number of Modules'
+// handleClick= {()=> {}}
+handleClick= {(e)=> setFormInput({...FormInput,
+name: e.target.value})}
+/>
 
 <Input
 type="textarea" 
 title= 'Description'
-placeholder='Video Description'
+placeholder='Course Description'
 handleClick= {(e)=> setFormInput({...FormInput,
     description: e.target.value})}
 />
+<div className='font-bold my-3'>Pricings Bundle</div>
+<select class="form-select appearance-none block w-full px-3 py-3 text-base font-normal text-gray-700
+      bg-green-200 bg-clip-padding bg-no-repeat border border-solid rounded
+      transition  ease-in-out  m-0
+      focus:text-gray-700  border-green-600 focus:outline-none"
+
+       type="name" 
+       >
+        <option selected>Choose The Desirable price</option>
+        <option value="1">Bundle 1</option>
+        <option value="2">Bundle 2</option>
+        <option value="3">Bundle 3</option>
+    </select>
 
 
 <Input
@@ -121,14 +141,29 @@ handleClick= {(e)=> setFormInput({...FormInput,
     name: e.target.value})}
 />
 
+<div className='font-bold my-3'>Starting Time</div>
+<select class="form-select appearance-none block w-full px-3 py-3 text-base font-normal text-gray-700
+      bg-yellow-100 bg-clip-padding bg-no-repeat border border-solid rounded
+      transition  ease-in-out  m-0
+      focus:text-gray-700  border-yellow-600 focus:outline-none"
+
+       type="name" 
+       >
+        <option selected>Starting Time </option>
+        <option value="1">Started</option>
+        <option value="2">Starting Soon</option>
+        <option value="3">In a Week</option>
+    </select>
+
+
 <div className='mt-7 w-full flex justify-end '>
 <Button
-btnName = 'Create Video'
+btnName = 'Create Course '
 className='rounded-xl'
 handleClick={()=> {}}
 />
 </div>
-
+ 
 
         </div>
         </div>
@@ -136,3 +171,5 @@ handleClick={()=> {}}
 }
 
 export default CreateCourse
+
+

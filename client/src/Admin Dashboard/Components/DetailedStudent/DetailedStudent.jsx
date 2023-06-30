@@ -77,7 +77,7 @@ const DetailedStudent = () => {
       <div
         className="relative flex justify-center
   md:flex-col min-h-screen"
-      >
+      > 
         <div
           className="relative flex-1 flex-center sm:px-4
     p-12 border-r md:border-r-0 md:border-b dark:border-white
